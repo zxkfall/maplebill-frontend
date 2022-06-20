@@ -1,4 +1,4 @@
-
+properties([pipelineTriggers([githubPush()])])
 
 node {
     stage('Checkout'){
